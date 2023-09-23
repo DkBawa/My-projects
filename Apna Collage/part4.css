@@ -1,0 +1,42 @@
+#box1{width:100px;
+    height:100px;
+    background:green;
+    transition: width 2s ease-in 0.5s;
+}
+
+#box1:hover{
+    width:600px;
+}
+
+#box2{
+    width:100px;
+    height:100px;
+    background:red;
+    position: absolute;
+    right: 200px;
+    bottom: 200px;
+   transform: rotate(90deg);
+}
+
+#box3{width:100px;
+    height:100px;
+    background:lightblue;
+    transform:skew(20deg);
+}
+
+#box4{
+    width:100px;
+    height:100px;
+    background:lightgreen;
+    box-shadow: 2px 2px 5px green;
+}
+
+#mypic{
+    width:280px;
+    height:500px;
+    background:pink;
+    border-color: black;
+    background-image: url(city.jpg);
+    background-size:contain;
+    opacity:100%;
+}

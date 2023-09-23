@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Croissant One', cursive;
+    text-decoration: none;
+
+}
+h1{
+    display: flex;
+    color: orangered;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 1px;
+    padding-top: 5px;
+    background-color: black;
+    justify-content: center;
+    border: 1px solid red;
+}
+.main_box{
+    background: url("store.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+.btn_one{
+    color:rgb(10, 7, 7);
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+}
+.sidebar_menu{
+    position:absolute;
+    left: -300px;
+    height:100vh;
+    width: 300px;
+    color: orangered;
+    box-shadow: 0 2px 2px rgb(205, 100, 100);
+    transition: all 0.3s linear;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    box-shadow: 0 0 20px;
+    height: 60px;
+
+  }
+.sidebar_menu .logo a {
+    position: absolute;
+    left: 50px;
+    color: rgb(240, 15, 15);
+    background-color: rgb(19, 10, 10);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 100px;
+}
+.sidebar_menu .menu{
+    position: absolute;
+    width: 100%;
+    top: 70px;
+}
+.sidebar_menu .btn_two{
+    color:black;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 265px;
+    line-height: 60px;
+    transition: 0.3s;
+}
+.sidebar_menu .menu li{
+    margin-top: 6px;
+    padding: 14px 20px;
+   
+
+}
+.sidebar_menu .menu i,a {
+    font-size: 20px;
+    color: black;
+}
+.sidebar_menu .menu i{
+    padding-right: 8px;
+    color: orangered;
+}
+.sidebar_menu .social_media {
+ position: absolute;
+ left: 25%;
+ bottom: 80px;
+
+}
+.sidebar_menu .social_media i{
+    color: rgb(248, 146, 22);
+    padding: 5px;
+    color: rgb(216, 216, 25);
+
+}
+.sidebar_menu .menu li:hover{
+    box-shadow: 0 2px 2px rgb(205, 100, 100);
+    background-color: orange;
+}
+.btn_one i:hover{
+    font-size: 40px;
+}
+.btn_two i:hover{
+font-size: 30px;
+}
+.sidebar_menu .social_media i:hover{
+    opacity: 1;
+    transform: scale(2);
+}
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}
+#check:checked ~ .btn_one i {
+opacity: 0;
+}
+#check:checked~ .sidebar_menu .btn_two i {
+    opacity: 1;
+}
+#check{
+    display: none;
+}

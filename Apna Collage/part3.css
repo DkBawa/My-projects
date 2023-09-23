@@ -1,0 +1,49 @@
+Div{
+    
+    height: 200px;
+    width: 400px;;
+    text-align: center;
+    background-color : #D2E9E9;
+    color:rgb(4, 73, 112);
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(236, 179, 179);
+    border-radius: 20px;
+    padding-top: 10px;margin: 10px 20px 30px;
+}
+h1{
+    border-width: 2px;
+    border-style: dashed;
+    border-color: cornflowerblue;
+
+}
+button{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: greenyellow;
+}
+#outer{
+    height:230px; 
+    width: 70px;
+border: 2px solid black;
+margin-bottom: 20px;
+}
+.inner {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 50px;
+    
+}
+#red{
+    background-color: red;
+}
+#yellow{
+   background-color: yellow;
+}
+#green{
+    background-color: green;
+}

@@ -1,0 +1,54 @@
+*{
+    font-family: 'Lucida Sans';
+    background-color: rgb(69, 140, 140);
+}
+h3{
+    color:black;
+}
+#login{
+    background-color: aliceblue;
+    color:#2905f4;
+}
+#signup{
+    background-color: aliceblue;
+    color:orangered;
+}
+.upvote{
+    color: greenyellow;
+}
+button:hover{
+    background-color: black;
+    color: rgb(5, 166, 113);
+}
+a:hover{
+    text-decoration:none;
+    color:rgb(28, 255, 85);
+}
+button:active{
+    background-color: rgb(250, 6, 30);
+    
+}
+text{
+    background-color: black;
+    color: white;
+}
+input[type="radio"]:checked + lable{
+    color: red;
+    font-weight: bolder;
+}
+div :nth-of-type(1){
+    background-color:yellow;
+}div :nth-of-type(2){
+    background-color:yellow;  
+}
+h3::first-letter{
+    color: white;
+    
+}
+h1::first-line{
+    color: darkorange;
+    
+}
+p::selection{
+    background-color: lightslategrey;
+}

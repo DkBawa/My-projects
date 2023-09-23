@@ -1,0 +1,23 @@
+#container{
+    background-color: aqua;
+    border: 5px solid black;
+    height: 300px;
+    width:80%;
+    margin: 10px auto;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-content: baseline;
+
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height: 100px;
+    width: 300px;
+    color: cyan;
+    text-align: center;
+    font: size 2.5em;
+}

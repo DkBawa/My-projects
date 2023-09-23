@@ -1,0 +1,25 @@
+.container{
+    height: 600px;
+    width: 800px;
+    background-color: darkorange;
+    display:grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px ;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px;
+    grid-gap:5px;
+    
+}
+.grid{
+    height: 200px;
+    width: 100px;
+    border: 5px solid rgb(140, 125, 125);
+    background-color: deeppink;
+    text-align: center;
+
+}
+.gridone{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-column-start:1;
+    grid-column-end: 5;
+
+}
